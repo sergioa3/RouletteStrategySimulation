@@ -1,0 +1,28 @@
+Intro
+
+This project was done during the pandemic when a friend of mine suggested simulating a roulette strategy.
+I first tried to program it without knowing OOP (or any other languages besides Python), but failed miserably. By that same time, I found a 
+video on OOP on Python and I just tried giving this another shot expanding on the techniques of OOP; on the worst case scenario I would 
+learn OOP. 
+
+
+About the script/What does it do?
+
+It is a simulation of n players with a given amount of initial money and a target amount of earnings. 
+The players come into the casino to play roulette using a specific programmed strategy (the idea would be to change this to chosen/given 
+by parameter).
+The players play until they either reach their goal (go "satisfecho") or loose everything (go "blanqueado").
+The end "analysis" just averages their performance.
+
+
+Notes/Future
+
+This is not optimized code at all, it is intact from when I first wrote it.
+For the future/how I would do it today:
+I would like to optimize it for effiency and also increase its scalability by reducing coupling, this in order to simulate diferent strategies 
+all from the same script. An even further step would be to program this in c++ for ultimate runtime effiency. 
+It is interesting to test out different roulette strategies as some people claim they found a Martingale strategy
+for the game, although I doubt this is possible. 
+It is also interesting to view the roulette game as a Markov Decission Problem and 
+how a given strategy then defines a Markov Process, an optimal strategy could then be found using the numeric algorithms for MDP such as
+policy and value iteration. 
