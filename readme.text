@@ -18,11 +18,3 @@ The end "analysis" just averages their performance.
 Notes/Future
 
 This is not optimized code at all, it is intact from when I first wrote it.
-For the future/how I would do it today:
-I would like to optimize it for effiency and also increase its scalability by reducing coupling, this in order to simulate diferent strategies 
-all from the same script. An even further step would be to program this in c++ for ultimate runtime effiency. 
-It is interesting to test out different roulette strategies as some people claim they found a Martingale strategy
-for the game, although I doubt this is possible. 
-It is also interesting to view the roulette game as a Markov Decission Problem and 
-how a given strategy then defines a Markov Process, an optimal strategy could then be found using the numeric algorithms for MDP such as
-policy and value iteration. 
